@@ -4,7 +4,7 @@
  * ==============================================================================
  * @version v1.0: stripe-payment-gateway.php
  * @copyright Copyright (c) 2017, http://www.freewebmentor.com
- * @author Prem Tiwari
+ * @author Prem Tiwar
  * You are free to use, distribute, and modify this software
  * ==============================================================================
  *
@@ -15,10 +15,10 @@ require 'stripe/Stripe.php';
 error_reporting(1);
 $params = array(
 		"testmode"   => "on",
-		"private_live_key" => "sk_test_a5AU0IgtdpqW8233ElW6C2j600EcqavmZi",
-		"public_live_key"  => "pk_test_D3Kr4LTODde5RmqVAq7lDqIR00Xk9Ilo6b",
-		"private_test_key" => "sk_test_a5AU0IgtdpqW8233ElW6C2j600EcqavmZi",
-		"public_test_key"  => "pk_test_D3Kr4LTODde5RmqVAq7lDqIR00Xk9Ilo6b"
+		"private_live_key" => "your private key",
+		"public_live_key"  => "your public key",
+		"private_test_key" => "your private key",
+		"public_test_key"  => "your public key"
 );
 
 if ($params['testmode'] == "on") {
